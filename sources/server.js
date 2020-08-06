@@ -3,12 +3,12 @@ const path = require("path");
 var app = express();
 var PORT = process.env.PORT || 8181;
 
+require("./routes/htmlRoutes")(app);
 
-//Page 1 - set index.html file
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '/public/index.html'));
-});
+//linking public folder to get data from it
+app.use(express.static("public"))
 
+// Starts our server.
 app.listen(PORT, function() {
     console.log("App listening on PORT http://localhost:" + PORT);
   });
