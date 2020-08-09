@@ -5,7 +5,7 @@
 
 ## Description: 
 
-This project is a command-line application. It utilizes (fs) for writing the file, (render) to returns the html in the callback function and (express) allows to set up middlewares to respond to HTTP Requests.This Application can be used to write, save, view previously saved notes, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+This project is a command-line application. It utilizes (fs) for writing the file, (render) to returns the html in the callback function and (express) allows to set up middlewares to respond to HTTP Requests.This Application can be used to write, save, view previously saved notes, and delete notes. This application will use an express backend to save and retrieve note data from a JSON file.
          
 ## Table of Contents
        
@@ -17,7 +17,7 @@ This project is a command-line application. It utilizes (fs) for writing the fil
             
 * [Questions](#Questions)
 
-* [Demo](#Demo)
+* [Heroku-Link](#Heroku)
          
 ## Installation
             
@@ -42,12 +42,5 @@ This project is licensed under the MIT license.
 If you have any questions please contact me at : mohan2036@gmail.com
 ### GitHub Prifile: [ram-sah](https://github.com/ram-sah) 
 ### Repository : [Note-Taker](https://github.com/ram-sah/Note-Taker)
-### Video of this project: [Watch-Video](https://drive.google.com)
-
-## Demo 
-
-
-
-## Test Clips
-
-
+### Heroku: 
+### https://damp-dawn-43442.herokuapp.com/
