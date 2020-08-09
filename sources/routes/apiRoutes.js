@@ -1,4 +1,3 @@
-//Variables for path
 const fs = require("fs");
 var dbData = "./db/db.json";
 // Read dbData file and store in parsedData
@@ -9,7 +8,7 @@ var parsedData = JSON.parse(fs.readFileSync(dbData, 'utf8'));
 module.exports = function (route) {
     route.get("/api/notes", (req, res) => {
         // Converting to JSON 
-        return res.json(parsedData);
+        res.json(parsedData);
     });
     // POST "/api/notes"  
     route.post("/api/notes", (req, res) => {
@@ -20,12 +19,16 @@ module.exports = function (route) {
         parsedData.push(newNote);
         // update file
         fs.writeFileSync(dbData, JSON.stringify(parsedData));
-       return res.json(parsedData)
+        res.json(parsedData)
     });
-    // // DELETE "/api/notes" with an id
-    // route.delete("/api/notes/:id", (req, res) => {
-
-    // });
-    
+    // DELETE "/api/notes"
+    route.delete("/api/notes/:id", function (req, res) {
+        let dlNote = req.params.id;
+        parsedData = parsedData.filter(newValue => {
+            return newValue.id != dlNote;
+        });
+        fs.writeFileSync(dbData, JSON.stringify(parsedData));
+        res.json(parsedData);
+    });
 };
 
