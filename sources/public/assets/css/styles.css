@@ -1,4 +1,9 @@
-html, body {
+
+body { 
+  color:black;
+  font-weight: 800;
+}
+html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -16,7 +21,7 @@ html, body {
 }
 
 .note-textarea, .note-title {
-  color: #000000;
+  color:black;
   width: 100%;
   outline: none;
   border: none;
@@ -35,7 +40,7 @@ html, body {
 }
 
 .note-title:read-only, .note-textarea:read-only {
-  color: #757575;
+  color: blue;
 }
 
 .list-container .card {
