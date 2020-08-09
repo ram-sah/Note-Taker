@@ -17,19 +17,23 @@ This project is a command-line application. It utilizes (fs) for writing the fil
             
 * [Questions](#Questions)
 
-* [Heroku-Link](#Heroku)
+* [Heroku-URL](#Heroku-URL)
+
+* [Demo](#Application-Demo)
          
 ## Installation
             
-To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following command on your terminal:
             
 ```
 npm install
 ```
+![npm](https://user-images.githubusercontent.com/64625123/89727107-e88a2480-d9ef-11ea-9a9e-1bd1a13576cb.png)
         
 ## Usage
             
 Run 'node server.js' from Terminal
+![node](https://user-images.githubusercontent.com/64625123/89727115-fcce2180-d9ef-11ea-8e97-93d25cfb1e17.jpg)
 
 ## License 
             
@@ -42,5 +46,9 @@ This project is licensed under the MIT license.
 If you have any questions please contact me at : mohan2036@gmail.com
 ### GitHub Prifile: [ram-sah](https://github.com/ram-sah) 
 ### Repository : [Note-Taker](https://github.com/ram-sah/Note-Taker)
-### Heroku: 
-### [The URL of the deployed application](https://damp-dawn-43442.herokuapp.com/)
+### Heroku-URL: 
+### [URL of this application](https://damp-dawn-43442.herokuapp.com/)
+
+## Application-Demo 
+### ![application](https://user-images.githubusercontent.com/64625123/89727098-cdb7b000-d9ef-11ea-9351-b8f87c900038.gif)
+
