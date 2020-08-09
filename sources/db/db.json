@@ -1,1 +1,1 @@
-[{"title":"Test Title","text":"Test text"}]
+[{"title":"First Note","text":"Just testing","id":1},{"title":"Hello World","text":"This is my first Note Taker ","id":2},{"title":"Note Taker","text":"This application should allow you to create and save notes","id":3},{"title":"Delete","text":"This application allows you to delete previously saved notes.","id":4},{"title":"Party","text":"Mark your calendar for the Birth Day party on 20th August. ","id":5}]
